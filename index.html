@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Cheer Practice!</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        h1 {
+            font-family: 'Varsity';
+            font-size: 48px;
+            color: red;
+        }
+        #image-container {
+            position: relative;
+        }
+        #input-form {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <h1>Robot Cheer Practice!</h1>
+        <form method="POST" action="/" id="input-form">
+            <label for="word">Give me a:</label>
+            <input type="text" id="word" name="word" required>
+            <button type="submit">5, 6, 7, 8!</button>
+        </form>
+        <div id="image-list">
+            {% for image in images %}
+                <img src="{{ url_for('static', filename='images/' + image) }}" alt="{{ image }}">
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
