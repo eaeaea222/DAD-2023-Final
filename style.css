@@ -1,0 +1,136 @@
+html {
+  background-image: url('images/field.png');
+  background-size: cover;
+  font-family: Arial, Varsity, sans-serif;
+  font-size: 30px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#input-form {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#input-form label {
+  color: white;
+  font-family: Varsity, sans-serif;
+  font-size: 30px;
+}
+
+#input-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-family: Varsity, sans-serif;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100px;
+  height: auto;
+  margin: 0 10px;
+}
+
+#input-form label {
+  color: red;
+}
+
+#input-form input[type="text"] {
+  background-color: red;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+html {
+  background-image: url('images/field.png');
+  background-size: cover;
+  font-family: Arial, Varsity, sans-serif;
+  font-size: 30px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#input-form {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#input-form label {
+  color: white;
+  font-family: Varsity, sans-serif;
+  font-size: 30px;
+}
+
+#input-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-family: Varsity, sans-serif;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100px;
+  height: auto;
+  margin: 0 10px;
+}
+
+#input-form label {
+  color: red;
+}
+
+#input-form input[type="text"] {
+  background-color: red;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: inline-block;
+  max-width: 100px;
+  height: auto;
+  margin: 0 10px;
+}
