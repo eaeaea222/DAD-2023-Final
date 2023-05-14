@@ -1,0 +1,39 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result</title>
+    <style>
+      body {
+        background-image: url("{{ url_for('static', filename='background.png') }}");
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your Word</h1>
+    <form method="post" action="{{ url_for('submit_word') }}">
+      <input type="text" name="word" value="{{ word }}" autofocus>
+      <input type="submit" value="Submit"> #had to look at tutorial for this
+    </form>
+    <h1>Result</h1>
+    {% for image in images %}
+      {% if image == 'space.png' %}
+        <img src="{{ url_for('static', filename='space.png') }}" alt="space">
+      {% elif image == 'punctuation.png' %}
+        <img src="{{ url_for('static', filename='space.png') }}" alt="punctuation">
+      {% else %}
+        <img src="{{ url_for('static', filename=image) }}" alt="{{ image }}">
+      {% endif %}
+    {% endfor %}
+  </body>
+</html>
+
+img {
+  display: block;
+  margin: 0 auto;
+}
