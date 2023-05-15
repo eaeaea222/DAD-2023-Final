@@ -1,0 +1,17 @@
+body {
+    background-image: url('static/images/background.png');
+
+    background-size: cover;
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
